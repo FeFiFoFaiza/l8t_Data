@@ -70,12 +70,12 @@ ACTIVITY 3:
 7. What is the northernmost Weather station?
 8. We would only have to change the operator from < to > in order to get the highest value of the Latitude coordinates.
 
-ACTIVITY 4
+ACTIVITY 4:
 1. What country has the highest happiness rank?
 2. We used the 2022 World Happiness Report which was found on Kaggle!!!!
 3. We were inspired by Mykolyk's question about "What gives you hope?" what better than to look at the happiest countries and move there?!
 4. We made the happy class which has two variables with the country name and its happiness rank and we chose these variables because they seem relevant.
-5. 
+5.
     ArrayList<happy> allcrnty = ds.fetchList("Country", "RANK");
     String happyCrnty;
     int happyRank;
