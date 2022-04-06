@@ -1,7 +1,7 @@
-###**INSOMNIAC RACOONS**
-#####Diana Akhmedova
-#####Tasnim Chowdhury
-#####Faiza Huda
+**INSOMNIAC RACOONS**
+- Diana Akhmedova
+- Tasnim Chowdhury
+- Faiza Huda
 ___
 
 Our Experiences:
