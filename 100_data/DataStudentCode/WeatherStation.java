@@ -8,27 +8,27 @@ public class WeatherStation {
    private String state;
    private double lat;
    private double lng;
-   
+
    WeatherStation(String name, String id, String state, double lat, double lng) {
       this.name = name;
       this.id = id;
       this.lat = lat;
       this.lng = lng;
-      this.state = state;   
+      this.state = state;
    }
-   
+
    /* Produce the id of this station */
-   public String getId() { 
+   public String getId() {
       return id;
    }
-   
+
    /* Produce the name of this station */
-   public String getName() { 
+   public String getName() {
       return name;
    }
-   
+
    /* Produce the name of this station */
-   public double getLat() { 
+   public double getLat() {
       return lat;
    }
 
@@ -36,5 +36,5 @@ public class WeatherStation {
    public boolean isLocatedInState(String st) {
       return this.state.equals(st);
    }
-   
+
 }
