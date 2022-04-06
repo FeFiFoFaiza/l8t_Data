@@ -45,7 +45,10 @@ ACTIVITY 1:
 
 ACTIVITY 2:
 1. Cereal
-2.
+2. What gives you hope?
+    - Faiza: Fruit Loops, Fruity Pebbles, and Cinammon Toast Crunch
+    - Tasnim: Lucky Charms
+    - Diana: Frosted Flakes and Raisin Bran
 3. public class Cereal
 4. 15 instance variables
 5.  String: _name
