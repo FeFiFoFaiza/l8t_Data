@@ -23,5 +23,15 @@ public class Welcome03_List {
             System.out.println("  " + ws.getId() + ": " + ws.getName());
          }
       }
+
+      double furthestLat;
+      String furthestWS = "";
+      for (WeatherStation ws : allstns) {
+         if (ws.getLat() < furthestLat) {
+            furthestLat = ws.getLat();
+            furthestWS = ws.getId();
+         }
+      }
+      System.out.println(furthestWS + "is the Southernmost place");
    }
 }
