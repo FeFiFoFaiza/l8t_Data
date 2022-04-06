@@ -19,7 +19,8 @@ QCC:
 
 
 Insomniac Raccoons's CSV FLOW:
-<insert your description of your tools and workflow in creating, editing CSV files>
+* We used a website to convert CSV files to XML.
+* We found our original XML data table online through a database finder.
 
 
 TRUBZ:
