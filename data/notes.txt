@@ -52,9 +52,9 @@ ACTIVITY 2:
 3. public class Cereal
 4. 15 instance variables
 5.  String: _name
-     char: _type
-     int: _calories, _protein, _fat, _sodium, _sugar, _potassium, _vitamins, _shelf
-     double: _fiber, _carbohydrates, _weight, _cups, _rating
+    char: _type
+    int: _calories, _protein, _fat, _sodium, _sugar, _potassium, _vitamins, _shelf
+    double: _fiber, _carbohydrates, _weight, _cups, _rating
 8. What is the most frequent calorie amount out of the different cereal brands?
 9. What is the mean rating of all of the cereal brands?
 10. We could implement a method that calculates and returns the mean of each category.
