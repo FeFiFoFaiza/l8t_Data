@@ -5,13 +5,6 @@ public class Cereal {
   private int _calories, _protein, _fat, _sodium, _sugar, _potassium, _vitamins, _shelf;
   private double _fiber, _carbohydrates, _weight, _cups, _rating;
 
-  public Cereal() {
-    _name = "Cereal";
-    _type = 'C';
-    _calories = _protein = _fat = _sodium = _sugar = _potassium = _vitamins = _shelf = 0;
-    _fiber = _carbohydrates = _weight = _cups = _rating = 0.0;
-  }
-
   public Cereal(String name, char type, int calories, int protein, int fat, int sodium,
                 double fiber, double carbohydrates, int sugar, int potassium, int vitamins,
                 int shelf, double weight, double cups, double rating) {
