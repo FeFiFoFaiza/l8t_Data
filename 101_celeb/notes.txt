@@ -22,4 +22,12 @@ control the instance variables
 Activity 3
 1. The chosen swing component is the JFrame class, which is basically the
 window that the player interacts with and it has all the other game components.
-Possible properties are scaling, size, and background. 
+Possible properties are scaling, size, and background.
+2. private ArrayList<Celebrity> celebGameList;
+3. Yes, it will match because instance variables are typically private
+12. CelebrityGame
+13. No knowledge
+
+Activity 4
+1. Class Name: Actor ; Attributes: movies/tv shows ; Behaviors: acting (boolean), hiring(bolean)
+2. 
