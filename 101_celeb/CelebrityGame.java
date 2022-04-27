@@ -87,8 +87,17 @@ public class CelebrityGame
 	 */
 	public void addCelebrity(String name, String guess, String type)
 	{
-		Celebrity newCeleb = new Celebrity(name, guess);
-		celebGameList.add(newCeleb);
+		if (type.equals("Actor")){
+			ActorCelebrity newCeleb = new ActorCelebrity(name, guess);
+			celebGameList.add(newCeleb);
+		}
+		else if (type.equals("literature")){
+			LiteratureCelebrity newCeleb = new LiteratureCelebrity(name, guess);
+			celebGameList.add(newCeleb);
+		} else {
+			Celebrity newCeleb = new Celebrity(name, guess);
+			celebGameList.add(newCeleb);
+		}
 	}
 
 	/**
@@ -110,7 +119,26 @@ public class CelebrityGame
 	 */
 	public boolean validateClue(String clue, String type)
 	{
-		return (clue.length() >= 10);
+		boolean valid = false;
+		if (clue.trim().length() >= 10 ){
+			valid = true;
+			if (type.equalsIgnoreCase("literature")){
+				String[] temp = clue.split(",");
+				if (temp.length > 1){
+					valid = true;
+				} else {
+					valid = false;
+				}
+			} else if (type.equalsIgnoreCase("actor")){
+					String[] temp = clue.split(",");
+					if (temp.length > 1){
+						valid = true;
+					} else {
+						valid = false;
+					}
+				}
+			}
+		return valid;
 	}
 
 	/**

@@ -55,11 +55,11 @@ public class CelebrityFrame extends JFrame
 	{
 		panelCards.add(startPanel, "START");
 		panelCards.add(gamePanel, "GAME");
-		this.setSize(800,400);
+		this.setSize(800,800);
 		this.setTitle("Celebrity Game");
 		this.add(panelCards);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		this.setResizable(true);
+		this.setResizable(false);
 
 		replaceScreen("START");
 
