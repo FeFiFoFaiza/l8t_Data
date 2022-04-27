@@ -1,0 +1,25 @@
+Activity 1
+1. Classes used: CelebrityGame, Celebrity and subclasses, Game
+2. Instance variables: name, preferred gender, age range, profession,
+living status, guessed?
+3. Game methods: play, update score, take turn, reset game, show results
+4. update score, reset game, rest would be part of main method
+5. play method allows a player to do a turn (1 min) and count them; during every turn
+the player makes as many guesses as possible to get the correct celebrity given clues
+6. a student object does learn, study, test methods and can have instant variables like
+grade and GPA.
+7. The student object can also have school, mindset, schedule instant variables
+
+Activity 2
+1. Constructors set up the instance variables in a class
+2. The Constructor can be overloaded and take in parameters to further
+control the instance variables
+3. Celebrity class needs the instance variables of clue and name
+4. The Celebrity class methods are getClue, getAnswer, setClue, setAnswer
+7. public Celebrity() { _name = null; _clue = null; }
+  This sets all the instance variables to a default value of null when nothing is given
+
+Activity 3
+1. The chosen swing component is the JFrame class, which is basically the
+window that the player interacts with and it has all the other game components.
+Possible properties are scaling, size, and background. 
