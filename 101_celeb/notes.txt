@@ -29,5 +29,5 @@ Possible properties are scaling, size, and background.
 13. No knowledge
 
 Activity 4
-1. Class Name: Actor ; Attributes: movies/tv shows ; Behaviors: acting (boolean), hiring(bolean)
-2. 
+1. Class Name: Actor ; Attributes: famous movies/tv shows, famous roles
+2.

@@ -11,10 +11,10 @@
 5. ~Create gameWindow() and fill out prepareGame().~
 6. ~Implement addCelebrity() and play().~
 7. ~Complete getCelebrityGameSize(), processGuess(), and sendClue().~
-8. Create Celebrity subclass and Java file.
-9. Define instance variables for Celebrity (eg: name, roles, etc).
-10. Create Celebrity() constructor.
-11. Override getClue(), getAnswer(), and toString().
+8. ~Create Celebrity subclass and Java file.~
+9. ~Define instance variables for Celebrity (eg: name, roles, etc).~
+10. ~Create Celebrity() constructor.~
+11. ~Override getClue(), getAnswer(), and toString().~
 12. Make updates to addCelebrity(), validateClue(), and StartPanel.
 13. Create JRadioButton and String instance variables in StartPanel.
 14. Complete/update the constructor, setupPanel(), setupLayout(), validate(), and addToGame().
