@@ -9,7 +9,7 @@
 3. ~Create gameCelebrity() for the current Celebrity being used.~
 4. ~Fill out the CelebrityGame() constructor.~
 5. ~Create gameWindow() and fill out prepareGame().~
-6. ~Implement addCelebrity and play().~
+6. ~Implement addCelebrity() and play().~
 7. ~Complete getCelebrityGameSize(), processGuess(), and sendClue().~
 8. Create Celebrity subclass and Java file.
 9. Define instance variables for Celebrity (eg: name, roles, etc).
