@@ -27,6 +27,7 @@ public class CelebrityGame
 	{
 		celebGameList = new ArrayList<Celebrity>();
 		gameWindow = new CelebrityFrame(this);
+		prepareGame();
 	}
 
 	/**
@@ -35,7 +36,7 @@ public class CelebrityGame
 	public void prepareGame()
 	{
 		celebGameList = new ArrayList<Celebrity>();
-		gameWindow.replaceScreen("GAME");
+		gameWindow.replaceScreen("START");
 	}
 
 	/**
@@ -70,7 +71,7 @@ public class CelebrityGame
 	{
 		if (celebGameList != null && celebGameList.size() > 0) {
 		    this.gameCelebrity = celebGameList.get(0);
-    		gameWindow.replaceScreen("START");
+    		gameWindow.replaceScreen("GAME");
 		}
 	}
 
