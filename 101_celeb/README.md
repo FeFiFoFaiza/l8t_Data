@@ -4,13 +4,13 @@
 * Diana Akhmedova
 
 ### Ordered To-Do List:
-1. Read through the lab and take note of important functionality.
-2. Open CelebrityGame.java and create an ArrayList of Celebrity objects (celebGameList).
-3. Create gameCelebrity() for the current Celebrity being used.
-4. Fill out the CelebrityGame() constructor.
-5. Create gameWindow() and fill out prepareGame().
-6. Implement addCelebrity and play().
-7. Complete getCelebrityGameSize(), processGuess(), and sendClue().
+1. ~Read through the lab and take note of important functionality.~
+2. ~Open CelebrityGame.java and create an ArrayList of Celebrity objects (celebGameList).~
+3. ~Create gameCelebrity() for the current Celebrity being used.~
+4. ~Fill out the CelebrityGame() constructor.~
+5. ~Create gameWindow() and fill out prepareGame().~
+6. ~Implement addCelebrity and play().~
+7. ~Complete getCelebrityGameSize(), processGuess(), and sendClue().~
 8. Create Celebrity subclass and Java file.
 9. Define instance variables for Celebrity (eg: name, roles, etc).
 10. Create Celebrity() constructor.
